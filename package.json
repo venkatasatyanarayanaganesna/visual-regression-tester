@@ -1,0 +1,16 @@
+{
+  "name": "visual-regression-tester",
+  "version": "1.0.0",
+  "description": "Playwright-based visual regression testing with smart pixel diffing — ignores anti-aliasing noise, flags only real visual changes, and generates an HTML report with highlighted diffs.",
+  "main": "visualDiff.js",
+  "scripts": {
+    "baseline": "node visualDiff.js baseline",
+    "check": "node visualDiff.js check"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.62.1",
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^7.0.0"
+  }
+}

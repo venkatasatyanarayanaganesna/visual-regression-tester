@@ -1,0 +1,14 @@
+[
+  {
+    "name": "example-domain",
+    "url": "https://example.com/"
+  },
+  {
+    "name": "playwright-homepage",
+    "url": "https://playwright.dev/"
+  },
+  {
+    "name": "playwright-docs",
+    "url": "https://playwright.dev/docs/intro"
+  }
+]
